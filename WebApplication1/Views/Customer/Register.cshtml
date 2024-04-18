@@ -1,0 +1,41 @@
+﻿@model RegisterCustomerForm
+@using (Html.BeginForm("Register", "Customer", FormMethod.Post))
+{
+    @Html.EditorForModel()
+    <button class="btn btn-primary" type="submit">Save</button>
+}
+
+
+@* @model WebApplication1.Models.Customer
+
+<form asp-action="Register" method="post">
+    <div class="mb-3">
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email">Email:</label>
+        <input asp-for="Email" type="email" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="PhoneNumber">Phone Number:</label>
+        <input asp-for="PhoneNumber" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="DateOfBirth">Date of Birth:</label>
+        <input asp-for="DateOfBirth" type="date" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="FavoriteColor">Favorite Color:</label>
+        <input asp-for="FavoriteColor" type="color" required />
+    </div>
+    <button type="submit">Submit</button>
+</form> } *@
+
+
+
+
+
+
+
+
